@@ -1,0 +1,52 @@
+ <div id="page-wrapper">
+    <div class="nav"> 权限控制>>用户管理>>权限分配</div>
+   <div class="graphs">
+   	
+    <div class="content_bottom">
+	
+	<form action="" method="post" id="ruleform">
+		<table class="table table-bordered">
+		
+		<tbody>
+			
+			<foreach name="rule" item="data">
+			<tr>
+				<th><input type="checkbox" name="auth[]" id ="auth{$data['id']}"  value="{$data['id']}" >{$data['title']}</th>
+			<notempty name="data['_data']">
+				<foreach name="data['_data']" item="inrule">
+				<td ><input type="checkbox" name="auth[]"  id ="auth{$inrule['id']}" value="{$inrule['id']}">{$inrule['title']}</td>
+				</foreach>
+			</notempty>
+			<tr>
+			</foreach>
+		</tbody>
+		</table>
+	
+		<div ><button class="btn btn-default"><a href="javascript:sub();">保存</a></button>&nbsp;&nbsp;<button class="btn btn-default" onclick="bac();">取消</button></div>
+	</form>
+	</div>
+   </div>
+ </div>
+ <script type="text/javascript">
+ 	
+ $(document).ready(function()
+	 {
+		 <?php
+
+			foreach($rules as $name =>$key)
+			{
+			echo	" $(\"#auth$key\").attr('checked','checked');";
+			}
+		 ?>
+	
+	 });
+ function bac()
+ {
+	 history.go(-1);
+}
+ function sub()
+ {
+	document.getElementById('ruleform').submit();
+ }
+
+ </script>

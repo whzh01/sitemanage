@@ -1,0 +1,9 @@
+[ 2017-02-21T16:57:52+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015706s ]
+NOTIC: [8] Undefined index: menu /var/www/html/thinkphp/Application/Common/Controller/BaseController.class.php 第 13 行.
+

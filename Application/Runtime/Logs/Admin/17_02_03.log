@@ -1,0 +1,63 @@
+[ 2017-02-03T10:15:44+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
+[ 2017-02-03T11:09:47+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
+[ 2017-02-03T11:22:43+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
+[ 2017-02-03T11:23:08+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 4 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 160 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 167 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 176 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 180 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 183 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 186 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 189 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 211 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 214 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 220 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 223 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 239 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 244 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 251 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/8895ee486a17556ac5622b0a91dff43b.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+

@@ -1,0 +1,233 @@
+[ 2018-07-17T21:31:37+08:00 ] 192.168.56.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017830s ]
+NOTIC: [8] Undefined index: menu /var/www/html/thinkphp/Application/Common/Controller/BaseController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user /var/www/html/thinkphp/Application/Common/Controller/BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018539s ]
+
+[ 2018-07-17T21:31:37+08:00 ] 192.168.56.1 /thinkphp/index.php/home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024035s ]
+
+[ 2018-07-17T21:31:46+08:00 ] 192.168.56.1 /thinkphp/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'qinshi' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `nav`  [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-07-17T21:31:48+08:00 ] 192.168.56.1 /thinkphp/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: type /var/www/html/thinkphp/Application/Home/Controller/IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` WHERE `voteType` = null AND `user` = 'qinshi' LIMIT 1   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `vote` WHERE `voteType` = null AND `user` = 'qinshi' ORDER BY `uid` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2018-07-17T21:31:52+08:00 ] 192.168.56.1 /thinkphp/index.php/home/users/updateinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'qinshi' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/2474574afca9aa348d3e60c3d5c00478.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2018-07-17T21:31:54+08:00 ] 192.168.56.1 /thinkphp/index.php/home/users/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+SQL: SELECT * FROM `user` ORDER BY `id` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/92a04f9c3459c18a1b1e7a9dc268d8d1.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-07-17T21:31:55+08:00 ] 192.168.56.1 /thinkphp/index.php/home/users/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_group` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+SQL: SELECT * FROM `auth_group` ORDER BY `id` LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/aaf924ddaf9e0c335a6f6e851415e643.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2018-07-17T21:31:56+08:00 ] 192.168.56.1 /thinkphp/index.php/home/auth/rule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `auth_rule` WHERE `id` IN ('14','1','40','41','42','47','43','44','45','46','48','49','61','62','50','51','52','53','90') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `auth_rule` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+NOTIC: [8] Undefined index: header /var/www/html/thinkphp/ThinkPHP/Library/Think/Page.class.php 第 146 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/AuthRuleModel.class.php on line 34 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `auth_rule` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 4 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+NOTIC: [8] Undefined index: Type /var/www/html/thinkphp/Application/Runtime/Cache/Home/d505f29e0b5ee7f63718ea138a560af1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+

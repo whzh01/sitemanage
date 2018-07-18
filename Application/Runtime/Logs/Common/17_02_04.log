@@ -1,0 +1,105 @@
+[ 2017-02-04T12:42:25+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-02-04T12:45:17+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-02-04T13:00:17+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-02-04T13:01:27+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-02-04T13:06:24+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-02-04T13:07:26+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-02-04T13:08:11+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-02-04T13:08:17+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-02-04T13:47:03+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-02-04T14:07:08+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-02-04T14:11:07+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-02-04T14:11:28+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-02-04T14:13:50+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+
+[ 2017-02-04T14:15:49+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+
+[ 2017-02-04T14:16:14+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-02-04T14:16:31+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-02-04T14:16:47+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-02-04T14:17:00+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-02-04T14:17:50+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-02-04T14:19:21+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-02-04T14:19:40+08:00 ] 192.168.10.1 /thinkphp/index.php/home/require/req/uid/images/demo-bar-right.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+

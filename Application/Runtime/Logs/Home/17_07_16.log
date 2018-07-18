@@ -1,0 +1,41 @@
+[ 2017-07-16T20:28:25+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017452s ]
+NOTIC: [8] Undefined index: menu /var/www/html/thinkphp/Application/Common/Controller/BaseController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user /var/www/html/thinkphp/Application/Common/Controller/BaseController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.0597s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM auth_group_access a INNER JOIN auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017885s ]
+
+[ 2017-07-16T20:28:25+08:00 ] 192.168.10.1 /thinkphp/index.php/home/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013420s ]
+

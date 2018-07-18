@@ -1,0 +1,443 @@
+[ 2017-01-27T09:08:35+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.146107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.146230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.377209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.377361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.082678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.082840s ]
+
+[ 2017-01-27T09:08:35+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.144602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.144730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.378107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.081885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.082019s ]
+
+[ 2017-01-27T17:27:27+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-27T17:27:34+08:00 ] 192.168.10.1 /thinkphp/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'qinshi' LIMIT 1   [ RunTime:0.0177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014470s ]
+
+[ 2017-01-27T17:27:35+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/VoteModel.class.php on line 82 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `vote` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2017-01-27T17:27:39+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/VoteModel.class.php on line 82 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `vote` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-01-27T17:27:40+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 4 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 112 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 119 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 128 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 132 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 135 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 138 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 141 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 163 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 166 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 172 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 175 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 191 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 196 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 203 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-01-27T17:27:40+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 4 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 112 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 119 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 128 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 132 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 135 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 138 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 141 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 163 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 166 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 172 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 175 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 191 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 196 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 203 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-01-27T17:27:41+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/VoteModel.class.php on line 82 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `vote` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-01-27T17:27:42+08:00 ] 192.168.10.1 /thinkphp/index.php/home/apply/index/cid/11/opt/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vote` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-01-27T17:27:45+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/VoteModel.class.php on line 82 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `vote` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2017-01-27T17:27:47+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/validation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/080c38003c17e0715f7f24adf84e4b11.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-01-27T17:27:48+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/perinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: title /var/www/html/thinkphp/Application/Runtime/Cache/Home/65d0d2cf7d63ea912c2ee3ec5f01d81c.php 第 4 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-01-27T17:27:50+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `vote` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vote` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /var/www/html/thinkphp/Application/Home/Model/VoteModel.class.php on line 82 and defined /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2002 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2011 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2014 行.
+NOTIC: [8] Undefined variable: where /var/www/html/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 2022 行.
+SQL: SELECT * FROM `vote` ORDER BY `id` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-01-27T17:29:04+08:00 ] 192.168.10.1 /thinkphp/index.php/home/login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-01-27T17:29:06+08:00 ] 192.168.10.1 /thinkphp/index.php/home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-01-27T17:29:12+08:00 ] 192.168.10.1 /thinkphp/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wenhao01' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+
+[ 2017-01-27T18:08:02+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-01-27T18:08:04+08:00 ] 192.168.10.1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+

@@ -1,0 +1,35 @@
+<div id="page-wrapper">
+    <div class="nav"> 系统设置>>系统开启</div>
+   <div class="graphs">
+   	
+    <div class="content_bottom">
+		<form action="{:U('Home/Auth/sysopen')}" method="post" name="" >
+		
+		<div class="form-control1">
+			<label class="col-sm-2 control-label">系统开闭：</label>
+			<div class="col-sm-2"><input type="radio" name="switch" id="switch1" value='1' />开启</div><div class="col-sm-2"> <input type="radio" name="switch" id="switch0" value='0'/>关闭</div>
+		</div>	
+		<div class="form-control1">
+			<label class="col-sm-2 control-label">系统定时开闭：</label>
+			<div class="col-sm-8"> <input type="text" name="switchon" onclick="WdatePicker()" value="{$sw.tsw.param}"/>（开启时间）--（截止时间）<input type="text" name="switchoff" onclick="WdatePicker()" value="{$sw.tsw.param2}"/></div>
+		</div>	
+		<button class="btn btn-default">保存配置</button>
+		</form>
+	 <div>
+	 </div>
+	</div>
+	<script type="text/javascript">
+	function checked()
+	{
+		if({$sw.sw.param}==1)
+		
+			//document.getElementById('switch').attribute="checked";
+			$("#switch1").attr('checked','');
+			
+		else
+			$("#switch0").attr('checked','');
+		
+	}
+	window.onload=checked;
+
+	</script>

@@ -1,0 +1,27 @@
+
+<div id="page-wrapper">
+   <div class="graphs">	
+    <div class="content_bottom">
+	  <div class="bs-example1" data-example-id="contextual-table">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('Home/Users/user')}">管理员列表</a></li>
+			<li><a href="{:U('Home/Users/add_user')}">添加管理员</a></li>
+		</ul>
+		<table class="table table-hover table-bordered ">
+		<thead>
+		<tr><th>ID</th><th>用户名</th><th>管理员</th><th>操作</th></tr>
+		</thead>
+		<tbody>
+		<volist name="page.pageList" id="list">
+		<tr><td>{$list.id}</td><td>{$list.username}</td><td>{$list.name}</td><td><a href="javascript:if(confirm('确定要删除该用户？'))location='{:U('Home/Users/deluser/',array('id'=>$list['id']))}'">删除</a> | <a href="{:U('Home/Users/update_user',array('id'=>$list['id']))}">修改</a></td></tr>
+		</volist>
+		</tbody>
+		</table>
+		<div ><ul class="pagination">{$page.pageShow}</ul></div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+ </script>
+

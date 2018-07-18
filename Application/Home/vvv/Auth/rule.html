@@ -1,0 +1,57 @@
+
+     <include file="Public/public_head" />
+     <include file="Public/public_nav" />
+    
+	
+        <div id="page-wrapper">
+        <div class="graphs">
+     	
+    <div class="content_bottom">
+     <div class="col-md-8 span_3">
+		  <div class="bs-example1" data-example-id="contextual-table">
+		    <table class="table">
+		      <thead>
+		        <tr>
+		          <th>  id</th>
+		          <th>Name</th>
+		          <th>Title</th>
+		          <th>Type</th>
+				  <th>Status</th>
+				  <th>条件</th>
+				  <th>操作</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		      	<volist name="llist" id="vo">
+				<tr >
+		          <td scope="row">{$vo.id}</td>
+		          <td>{$vo.name}</td>
+		          <td>{$vo.title}</td>
+		          <td>{$vo.Type}</td>
+				  <td>{$vo.status}</td>
+				  <td>{$vo.condition}</td>
+				  <td><a href="{:U('Home/Auth/ruledel',array('id'=>$vo['id']))}">删除</a></td>
+		        </tr>
+				</volist>
+			
+		 
+			
+		      </tbody>
+		    </table>
+		    	<div>{$page}</div>
+		   </div>
+	   </div>
+
+		<div class="clearfix"> </div>
+	    </div>
+		
+		</div>
+       </div>
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+   <!--xcc-->
+     <include file="Public/public_foot" />   
+</body>
+</html>

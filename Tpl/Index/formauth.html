@@ -1,0 +1,107 @@
+   
+		<div id="page-wrapper">
+        <div class="graphs">
+     	
+    <div class="content_bottom">
+     <div class="col-md-8 span_3">
+		  <div class="bs-example1" data-example-id="contextual-table">
+		 <a href="javascript:" onclick="ex_excel()"> <button class="btn btn-default">导出</button></a>
+		    <table class="table">
+		      <thead>
+		        <tr>
+		          <th width="5%">序号</th>
+		          <th width="10%">编号</th>
+		          <th width="10%">承办学部</th>
+		          <th width="25%">活动名称</th>
+		          <th width="10%">提交申请时间</th>		  
+				  <th width="10%">研究生会审核</th>
+				  <th width="10%">研究生院审核</th>
+				  <th width="20%">操作</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		      	<volist name="llist" id="vo">
+				<tr >
+				<td scope="row">{$vo.id}</td>
+		          <td scope="row">{$vo.uid}</td>
+		          <td>{$vo.college}</td>
+		          <td>{$vo.activationname}</td>
+		          <td>{$vo.subtime}</td>				  
+				  <td>{$vo.yjsaut}</td>
+				  <td>{$vo.yjyaut}</td>
+				  <td><a href="javascript:" onclick="auth('{$vo.uid}')"><button class="btn btn-primary btn-sm" data-toggle="modal">审核</button></a>
+	<span style="margin-left:5px;"></span><a href="{:U('Home/Apply/formShow',array('cid'=>$vo['uid'],'opt'=>1))}"><button class="btn btn-primary btn-sm" data-toggle="modal" >修改</button></a>
+	<span style="margin-left:5px;"></span><a href="javascript:if(confirm('确认删除该申请？'))location='{:U('Home/Apply/formdel',array('id'=>$vo['id']))}' "><button class="btn btn-primary btn-sm" data-toggle="modal" >删除</button></a></td>
+		        </tr>
+				</volist>			
+		      </tbody>
+		    </table>
+			<div><ul class="pagination">{$page}</ul></div>
+		   </div>
+	   </div>
+
+		<div class="clearfix"> </div>
+		<div class="modal fade" id="siteAuth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel" >
+				
+				</h4>
+			</div>
+			<div class="modal-body" >
+				<form action=" " name="formauth" id="formauth" method="post">
+					<input type="hidden" name="formtype" value="{$formtype}">
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal"  id="button1">取消	</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal" id="button2" onclick ="formsub()">确定	</button>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+	    </div>
+		
+		</div>
+       </div>
+      <!-- /#page-wrapper -->
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+ <script>
+
+function auth($uid){
+	$('h4').html('审核申请');
+	var formcont = "";
+	formcont +="<div class=\"col-sm-8\">";
+	formcont +="<lable> 请选择：</lable>";
+	formcont +="<select  id=\"selector1\" class=\"form-control1\" name=\"authres\">";
+	formcont +="<option>未审核</option>"+"<option>审核通过</option>"+"<option>未通过</option>"+"</select>"+"</div>"+"<input type=\"hidden\" name=\"uid\" />";
+										
+	$('#formauth').html(formcont);
+	$('#formauth').attr("action","{:U('Home/Apply/formauth')}");
+	$('#button1').html('取消');
+	$('#button2').html('确认');
+	$("input[name='uid']").val($uid);
+	$('#siteAuth').modal('show');
+}
+function formsub()
+{
+	document.getElementById('formauth').submit();
+}
+function ex_excel()
+{
+	$('h4').html('导出EXCEL');
+	var formcont = "";
+	formcont += "<div class=\"form-group\"><label>日期：</label><input type=\"text\" class=\"form-control1\" name=\"exstart\" placeholder=\"起始时间\" onClick=\"WdatePicker()\"> <input type=\"text\" class=\"form-control1\"  placeholder=\"截止时间\" name=\"exend\" onClick=\"WdatePicker()\"> <input type=\"hidden\" name=\"formtype\" ></div>";
+		$('#formauth').html(formcont);
+	$('#formauth').attr('action',"{:U('Home/Index/ex_excel')}");
+	$("input[name='formtype']").val({$formtype});
+	$('#button1').html('取消');
+	$('#button2').html('导出');
+	$('#siteAuth').modal('show');
+}
+</script>

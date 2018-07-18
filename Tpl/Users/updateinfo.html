@@ -1,0 +1,39 @@
+<div id="page-wrapper">
+   <div class="graphs">	
+    <div class="content_bottom">
+	  <div class="bs-example1" data-example-id="contextual-table">
+		<form class="form-horizontal" role="form" name="updateInfo" id="updateInfo" action="{:U('Home/Users/updateinfo')}" method="post" >
+			
+			<div class="form-group">
+				
+				<p class="form-control1-static">用户名：{$data['username']}</p>
+			</div>
+		
+			<div class="form-group">
+				<p class="form-control1-static">学院：{$data['college']}</p>
+			</div>
+			<div class="form-group"><label>负责人：</label><input type="text" class="form-control1" name="user" value="{$data['name']}"/></div>
+			<div class="form-group"><label>联系方式：</label><input type="text" class="form-control1" name="phone" value="{$data['tel']}"/></div>
+			<div class="form-group"><label>密码：</label><input type="text" class="form-control1" name="pwd" value="{$data['password']}"/></div>
+			
+			<div ><button class="btn btn-success" onclick="add();">修改</button>
+				<span style="margin-left:10px;margin-right:10px;"></span>
+				<button class="btn btn-success" onclick="cancel()">取消</button>
+			</div>
+		</form>
+	  </div>
+	</div>
+  </div>
+</div>
+<script type="text/javascript">
+function add()
+{
+	document.getElementById('updateInfo').submit();
+
+}
+function cancel()
+{
+	history.back(-1);
+}
+
+</script>

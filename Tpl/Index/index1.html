@@ -1,0 +1,94 @@
+
+		<div id="page-wrapper">
+        <div class="graphs">
+     	
+    <div class="content_bottom">
+     <div class="col-md-8 span_3">
+		  <div class="bs-example1" data-example-id="contextual-table">
+		    <table class="table">
+		      <thead>
+		        <tr>
+		          <th width="5%">序号</th>
+		          <th width="10%">编号</th>
+		          <th width="10%">承办学部</th>
+		          <th width="25%">活动名称</th>
+		          <th width="10%">提交申请时间</th>		  
+				  <th width="10%">研究生会审核</th>
+				  <th width="10%">研究生院审核</th>
+				  <th width="20%">操作</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		      	<volist name="llist" id="vo">
+				<tr >
+				<td scope="row">{$vo.id}</td>
+		          <td scope="row">{$vo.uid}</td>
+		          <td>{$vo.college}</td>
+		          <td>{$vo.activationname}</td>
+		          <td>{$vo.subtime}</td>				  
+				  <td>{$vo.yjsaut}</td>
+				  <td>{$vo.yjyaut}</td>
+				  <td><a href="javascript:" onclick="auth({$vo.uid})"><button class="btn btn-primary btn-sm" data-toggle="modal">审核</button></a>
+	<span style="margin-left:5px;"></span><a href="{:U('Home/Apply/formShow',array('cid'=>$vo['uid'],'opt'=>1))}"><button class="btn btn-primary btn-sm" data-toggle="modal" >修改</button></a>
+	<span style="margin-left:5px;"></span><a href="javascript:if(confirm('确认删除该申请？'))location='{:U('Home/Apply/formdel',array('id'=>$vo['id']))}' "><button class="btn btn-primary btn-sm" data-toggle="modal" >删除</button></a></td>
+		        </tr>
+				</volist>			
+		      </tbody>
+		    </table>
+			<div><ul class="pagination">{$page}</ul></div>
+		   </div>
+	   </div>
+
+		<div class="clearfix"> </div>
+		<div class="modal fade" id="siteAuth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					审核申请
+				</h4>
+			</div>
+			<div class="modal-body">
+				<form action="{:U('Home/Apply/formauth')} " name="formauth" id="formauth" method="post">
+						
+						<div class="col-sm-8">
+									<lable> 请选择：</lable>
+									<select  id="selector1" class="form-control1" name="authres">
+										<option <if condition="$form['LiteratureStyle'] eq '条幅'">selected</if>>未审核</option>
+										<option <if condition="$form['LiteratureStyle'] eq '海报'">selected</if> >审核通过</option>
+										<option <if condition="$form['LiteratureStyle'] eq '条幅、海报'">selected</if>>未通过</option>						
+									</select>
+						</div>
+						<input type="hidden" name="uid" />
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">取消	</button>
+			<button type="button" class="btn btn-default" data-dismiss="modal" onclick ="formsub()">确定	</button>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+	    </div>
+		
+		</div>
+       </div>
+      <!-- /#page-wrapper -->
+    <!-- /#wrapper -->
+    <!-- Bootstrap Core JavaScript -->
+ <script>
+
+function auth($uid){
+	
+	$("input[name='uid']").val($uid);
+	$('#siteAuth').modal('show');
+}
+function formsub()
+{
+	document.getElementById('formauth').submit();
+}
+
+</script>

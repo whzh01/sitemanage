@@ -1,0 +1,10 @@
+[ 2017-01-10T12:35:06+08:00 ] 192.168.10.1 /thinkphp/index.php/images/yzm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-10T12:36:46+08:00 ] 192.168.10.1 /thinkphp/index.php/images/yzm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+

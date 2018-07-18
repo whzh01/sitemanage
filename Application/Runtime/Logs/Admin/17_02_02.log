@@ -1,0 +1,1127 @@
+[ 2017-02-02T17:50:29+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-02-02T17:51:41+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-02-02T17:52:17+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/index.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/index.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-02-02T17:54:26+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-02-02T17:54:28+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-02-02T18:05:20+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-02-02T18:05:21+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-02-02T18:42:23+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-02-02T18:42:25+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-02-02T18:42:28+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-02-02T20:04:03+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index/forms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:forms
+
+[ 2017-02-02T20:04:12+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2017-02-02T20:04:14+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-02-02T20:04:14+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-02-02T20:04:14+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-02-02T20:04:16+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-02-02T20:04:16+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-02-02T20:04:16+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-02-02T20:04:16+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-02-02T20:04:17+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-02-02T20:04:17+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-02-02T20:04:18+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-02-02T20:04:19+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-02-02T20:05:13+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-02-02T20:06:15+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-02-02T20:07:08+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-02-02T20:20:37+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-02-02T20:23:37+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-02-02T21:01:20+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_head.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/public_nav.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+NOTIC: [2] file_get_contents(./Application/Admin/View/__HOME_Public__/public_foot.html): failed to open stream: No such file or directory /var/www/html/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 785 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 14 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 21 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 30 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 34 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 37 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 40 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 43 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 65 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 68 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 74 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 77 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 93 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 98 行.
+NOTIC: [8] Undefined variable: form /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 105 行.
+NOTIC: [8] Undefined variable: opt /var/www/html/thinkphp/Application/Runtime/Cache/Admin/19da1f252f25f0eaf7e7b131ab9fab0e.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-02-02T21:01:55+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 模板不存在:./Tpl//thinkphp/index.php/Home/Index/index.html.html
+
+[ 2017-02-02T21:07:35+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 模板不存在:./Tpl//thinkphp/index.php/../Home/Index/index.html.html
+
+[ 2017-02-02T21:08:13+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+ERR: 模板不存在:./Tpl/Home/Index/forms.html
+
+[ 2017-02-02T21:16:28+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
+[ 2017-02-02T21:17:17+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
+[ 2017-02-02T21:17:47+08:00 ] 192.168.10.1 /thinkphp/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+ERR: 模板不存在:./Tpl/Index/forms.html
+
